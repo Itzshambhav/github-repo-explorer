@@ -1,38 +1,52 @@
-GitHub Repo Explorer 🚀
+# 🚀 GitHub Repo Explorer
 
-A modern and responsive full-stack GitHub Repo Explorer built using React.js, Node.js, and Express.js.
-This application allows users to search GitHub profiles, explore repositories, sort repositories, and view detailed GitHub information in a beautiful UI.
+A modern full-stack GitHub Repo Explorer built using **React.js**, **Node.js**, **Express.js**, and the **GitHub API**.
 
-🌐 Live Features
+Search GitHub users, explore repositories, sort repositories, and view profile statistics in a beautiful and responsive UI.
+
+---
+
+# 🌟 Features
 
 ✅ Search any GitHub user
-✅ View GitHub profile information
-✅ Explore repositories
+✅ Explore repositories instantly
+✅ View followers, following, and repository count
 ✅ Sort repositories by:
 
-Stars ⭐
-Name 📘
-Recently Updated ⏳
+* ⭐ Stars
+* 📘 Name
 
-✅ Responsive modern UI
-✅ Invalid username handling
-✅ Backend API integration
-✅ Dynamic rendering using React Hooks
-✅ Repository statistics display
-✅ Professional portfolio-ready design
+✅ Beautiful modern dark UI
+✅ Responsive design
+✅ Error handling for invalid usernames
+✅ Real-time GitHub API integration
+✅ Professional portfolio-ready project
 
-🛠️ Tech Stack
-Frontend
-React.js
-Axios
-Vite
-Backend
-Node.js
-Express.js
-CORS
-API
-GitHub REST API
-📂 Project Structure
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+* React.js
+* Axios
+* Vite
+
+## Backend
+
+* Node.js
+* Express.js
+* CORS
+
+## API
+
+* GitHub REST API
+
+---
+
+# 📂 Project Structure
+
+```bash
 github-repo-explorer
 │
 ├── client
@@ -52,119 +66,182 @@ github-repo-explorer
 │   └── package.json
 │
 └── README.md
-⚙️ Installation & Setup
-1️⃣ Clone Repository
-git clone YOUR_GITHUB_REPOSITORY_LINK
-2️⃣ Navigate to Project
-cd github-repo-explorer
-🚀 Frontend Setup
-Open client folder
+```
+
+---
+
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/itzshambhav/github-repo-explorer.git
+```
+
+---
+
+# 🚀 Frontend Setup
+
+```bash
 cd client
-Install dependencies
 npm install
-Run frontend
 npm run dev
+```
 
 Frontend runs on:
 
+```bash
 http://localhost:5173
-🚀 Backend Setup
-Open server folder
+```
+
+---
+
+# 🚀 Backend Setup
+
+```bash
 cd server
-Install dependencies
 npm install
-Run backend
 npm run dev
+```
 
 Backend runs on:
 
+```bash
 http://localhost:5000
-🔗 API Endpoint
-Get GitHub User Data
+```
+
+---
+
+# 🔗 API Endpoint
+
+```bash
 GET /api/github/:username
-Example
+```
+
+Example:
+
+```bash
 http://localhost:5000/api/github/octocat
-✨ Features Implemented
-👤 GitHub User Search
+```
 
-Users can search any GitHub username.
+---
 
-📦 Repository Explorer
+# 📸 Features Preview
+
+## 🔍 User Search
+
+Search any GitHub profile instantly.
+
+## 👤 Profile Information
 
 Displays:
 
-Repository Name
-Description
-Stars
-Forks
-Language
-Last Updated Date
-📊 Sorting
+* Avatar
+* Name
+* Bio
+* Followers
+* Following
+* Public Repositories
 
-Repositories can be sorted by:
+## 📦 Repository Explorer
 
-Stars
-Name
-Recently Updated
-❌ Error Handling
+Displays:
 
-Displays beautiful error UI for:
+* Repository Name
+* Description
+* Stars
+* Forks
+* Language
+* Last Updated Date
 
-Invalid usernames
-API failures
-🎨 Modern UI
-Dark theme
-Responsive design
-Professional cards
-Hover effects
-Modern typography
-📸 Screenshots
-Home Page
-Search GitHub users
-Professional hero section
-Profile Section
-Avatar
-Bio
-Followers
-Following
-Repositories
-Repository Cards
-Repository details
-Language
-Stars
-Forks
-Updated date
-🧠 Concepts Used
-React Hooks
-useState
-API Fetching
-REST API
-Express Routing
-Backend Proxy
-Async/Await
-Conditional Rendering
-Component Reusability
-🔮 Future Improvements
-Pagination
-GitHub contribution graph
-Search history
-Dark/Light mode toggle
-Repository filtering
-AI repository summary
-Favorite repositories
-👨‍💻 Developed By
-Shambhav Kumar 🚀
+---
 
-Passionate Software Engineer focused on:
+# 🎨 UI Highlights
 
-Full Stack Development
-AI/ML
-Modern Web Applications
-Scalable Software Systems
-📜 License
+* Modern Dark Theme
+* Responsive Layout
+* Professional Cards
+* Hover Effects
+* Smooth Design
+* Portfolio Quality UI
 
-This project is developed for educational and assessment purposes.
+---
 
-⭐ Support
+# 🧠 Concepts Used
 
-If you like this project, consider giving it a ⭐ on GitHub.
+* React Hooks
+* useState
+* API Fetching
+* Express Routing
+* Async/Await
+* Component Reusability
+* REST API Integration
+
+---
+
+---
+
+# 📸 Screenshots
+
+## 🏠 Home Page
+
+![Home Page](./screenshots/home.png)
+
+---
+
+## ❌ Invalid Username Handling
+
+![Invalid Username](./screenshots/error.png)
+
+---
+
+## 👤 User Profile Section
+
+![User Profile](./screenshots/profile.png)
+
+---
+
+## 📊 GitHub Statistics Cards
+
+![Stats Section](./screenshots/stats.png)
+
+---
+
+## 📦 Repository Explorer
+
+![Repositories](./screenshots/repos.png)
+
+---
+
+# 🔮 Future Improvements
+
+* Pagination
+* Repository filtering
+* Search history
+* GitHub contribution graph
+* AI repository summary
+* Light/Dark theme toggle
+
+---
+
+# 👨‍💻 Developed By
+
+## Shambhav Kumar 🚀
+
+Passionate Full Stack Developer focused on:
+
+* AI/ML
+* MERN Stack
+* Modern Web Development
+* Scalable Applications
+
+GitHub:
+https://github.com/itzshambhav
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
+
+---.
