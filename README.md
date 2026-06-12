@@ -185,31 +185,31 @@ Displays:
 
 ## 🏠 Home Page
 
-![Home Page](./screenshots/home.png)
+![Home Page](./screenshot/home.png)
 
 ---
 
 ## ❌ Invalid Username Handling
 
-![Invalid Username](./screenshots/error.png)
+![Invalid Username](./screenshot/error.png)
 
 ---
 
 ## 👤 User Profile Section
 
-![User Profile](./screenshots/profile.png)
+![User Profile](./screenshot/profile.png)
 
 ---
 
 ## 📊 GitHub Statistics Cards
 
-![Stats Section](./screenshots/stats.png)
+![Stats Section](./screenshot/stats.png)
 
 ---
 
 ## 📦 Repository Explorer
 
-![Repositories](./screenshots/repos.png)
+![Repositories](./screenshot/repos.png)
 
 ---
 
