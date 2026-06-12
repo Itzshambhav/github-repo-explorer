@@ -30,8 +30,8 @@ function App() {
 
     try {
 
-      const response = await axios.get(
-  `https://github-repo-explorer-5518.onrender.com/api/github/${username}`
+      await axios.get(
+  `https://github-repo-explorer-backend-5518.onrender.com/api/github/${username}`
 );
 
       setUser(response.data.user);
