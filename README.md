@@ -6,6 +6,15 @@ Search GitHub users, explore repositories, sort repositories, and view profile s
 
 ---
 
+# 🌐 Live Demo
+
+🚀 Live Project:
+https://github-repo-explorer-frontend.onrender.com
+
+📂 GitHub Repository:
+https://github.com/Itzshambhav/github-repo-explorer
+
+
 # 🌟 Features
 
 ✅ Search any GitHub user
